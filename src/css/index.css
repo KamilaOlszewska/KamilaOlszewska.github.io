@@ -1,0 +1,264 @@
+@import "_normalize.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+@import "_variables.css";
+@import "_study.css";
+@import "_new-quiz.css";
+@import "_ranking-page.css";
+/*basic variables etc*/
+.primary-font-style{
+    font-family: var(--primary-font-style);
+}
+.logo-font-style{
+    font-family: var(--logo-font-style);
+}
+/*header*/
+.page-header{
+    background-color: var(--background-color);
+}
+.header-background{
+    font-family: var(--primary-font-style);
+}
+.header-menu-bar{
+    padding: 1rem 0.5rem;
+}
+.header-logo-first-part{
+    color: var(--dark-violet-color);
+    font-family: var(--logo-font-style);
+    font-size: 1.5rem;
+}
+.header-logo-second-part{
+    color: var(--almost-black-gray-color);
+    font-family: var(--logo-font-style);
+    font-size: 1.5rem;
+}
+.header-navigation-item{
+    color: var(--very-gray-color);
+}
+.header-navigation-item:hover{
+   transform: scale(1.1);
+}
+@media (min-width: 760px) {
+    .header-navigation-item:first-of-type{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .header-navigation-item:nth-of-type(2){
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .header-navigation-item:nth-of-type(3){
+        padding-left: 1rem;
+    }
+}
+.header-navigation-item:first-of-type{
+}
+.header-navigation-item:last-of-type{
+}
+
+/*hero*/
+.hero-section{
+    background-color: var(--dark-violet-color);
+}
+.hero-confetti-bg{
+    background-image: url("../assets/—Pngtree—colorful-birthday-confetti-transparent-background_4327913.png");
+    padding-top: 12.5%;
+    background-size: cover;
+    /*background-position-x: left;*/
+    /*background-position-y: top;*/
+    background-position: center;
+    padding-bottom: 12.5%;
+}
+.hero-title{
+    color: var(--background-color);
+    font-family: var(--headers-font-style);
+}
+.hero-paragraph{
+    color: var(--background-color);
+    font-family: var(--primary-font-style);
+}
+/*about page*/
+.about-page-more{
+    font-size: 1.5rem;
+    font-family: var(--primary-font-style);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: var(--almost-black-gray-color);
+}
+.about-page-more:hover{
+    color: var(--very-gray-color);
+}
+.about-page{
+    background-color: var(--background-color);
+    color: var(--almost-black-gray-color);
+    padding-bottom: 1rem;
+}
+.about-page-header{
+    font-family: var(--headers-font-style);
+    font-size: 1.8rem;
+}
+.about-page-paragraph{
+    font-family: var(--primary-font-style);
+    font-size: 1.8rem;
+}
+.about-page-text{
+    align-self: center;
+}
+/*features*/
+.features{
+    background-image: url("../assets/img_2.png");
+    background-color: var(--background-color);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+
+}
+.features-header{
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    font-family: var(--headers-font-style);
+    font-size: 2rem;
+}
+.features-paragraph{
+    padding-bottom: 1rem;
+}
+@media (min-width: 760px) {
+    .fp2{
+        padding-bottom: 4rem;
+    }
+    .fp3{
+        padding-bottom: 4rem;
+    }
+}
+
+.features-photo-circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.features-photo-circle1{
+    background-image: url("../assets/matt-ragland-02z1I7gv4ao-unsplash.jpg");
+    background-size: cover;
+}
+.features-photo-circle2{
+    background-image: url("../assets/mimi-thian-vdXMSiX-n6M-unsplash.jpg");
+    background-size: cover;
+}
+.features-photo-circle3{
+    background-image: url("../assets/nino-kojo-u77RIr2sGNg-unsplash.jpg");
+    background-size: cover;
+}
+.form{
+    background-color: var(--dark-violet-color);
+    padding: 4rem 2rem;
+}
+.form-text{
+    color: var(--background-color);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.form-form{
+    background-color: var(--background-color);
+    border-radius: 5px;
+    box-shadow:
+            0 3.5px 2.9px rgba(0, 0, 0, 0.016),
+            0 8.2px 6.8px rgba(0, 0, 0, 0.023),
+            0 14.7px 12.2px rgba(0, 0, 0, 0.027),
+            0 24.4px 20.2px rgba(0, 0, 0, 0.03),
+            0 40.2px 33.3px rgba(0, 0, 0, 0.034),
+            0 70.3px 58.3px rgba(0, 0, 0, 0.038),
+            0 152px 126px rgba(0, 0, 0, 0.05)
+;
+}
+.form-header{
+    font-family: var(--headers-font-style);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+.form-label{
+    font-family: var(--primary-font-style);
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+.form-input{
+    font-family: var(--primary-font-style);
+    color: var(--very-gray-color);
+    font-size: 0.7rem;
+    border: 0;
+    box-shadow:
+            0 0.8px 2.4px rgba(0, 0, 0, -0.004),
+            0 1.9px 5.3px rgba(0, 0, 0, -0.003),
+            0 3.5px 9px rgba(0, 0, 0, 0.002),
+            0 5.6px 13.8px rgba(0, 0, 0, 0.008),
+            0 8.6px 20.5px rgba(0, 0, 0, 0.016),
+            0 12.7px 30.2px rgba(0, 0, 0, 0.025),
+            0 18.8px 45.2px rgba(0, 0, 0, 0.036),
+            0 27.8px 72px rgba(0, 0, 0, 0.049),
+            0 40px 135px rgba(0, 0, 0, 0.07)
+;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.3rem;
+}
+.form-button{
+    background-color: var(--bright-orange-color);
+    border: 0;
+    color: var(--background-color);
+    font-family: var(--headers-font-style);
+    padding: 0.7rem 1.2rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    box-shadow:
+            0 3.5px 2.9px rgba(0, 0, 0, 0.016),
+            0 8.2px 6.8px rgba(0, 0, 0, 0.023),
+            0 14.7px 12.2px rgba(0, 0, 0, 0.027),
+            0 24.4px 20.2px rgba(0, 0, 0, 0.03),
+            0 40.2px 33.3px rgba(0, 0, 0, 0.034),
+            0 70.3px 58.3px rgba(0, 0, 0, 0.038),
+            0 152px 126px rgba(0, 0, 0, 0.05)
+;
+    transition:.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+    overflow: hidden;
+}
+.form-button:hover:after{
+    transform: translate(0,0);
+}
+.form-button:hover{
+    border: 2px solid transparent;
+    color: var(--dark-violet-color);
+    transform: scale(1.05);
+    will-change: transform;
+}
+.form-button-send{
+    margin:1.5rem
+}
+.form-button-start{
+    margin-top: 2rem;
+}
+
+/*footer*/
+.footer{
+    background-color: var(--almost-black-gray-color);
+    color: var(--background-color);
+}
+.footer-social-media-icon{
+    margin: 0.5rem;
+}
+.footer-small-logo{
+    margin-left: 0.1rem;
+    font-family: var(--logo-font-style);
+    font-size: 1rem;
+}
+.footer-copyright{
+    font-family: var(--primary-font-style);
+    font-size: 1.1rem;
+}
+.hidden{
+    display: none;
+}
