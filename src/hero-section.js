@@ -6,10 +6,8 @@ const HeroSection = () => {
             <div className="hero-confetti-bg">
                 <div className="hero-body">
                     <div className="container">
-
                         <p className="title has-text-centered hero-title">
-                            Sprawdź się!
-                        </p>
+                            Sprawdź się!</p>
                         <p className="subtitle has-text-centered hero-paragraph">
                             Baw się rozwiązując quizy ze znajomymi.<br/>
                             Ucz się tworząc fiszki.
