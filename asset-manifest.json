@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.e7db6862.chunk.css",
-    "main.js": "/my-app/static/js/main.224dcea8.chunk.js",
-    "main.js.map": "/my-app/static/js/main.224dcea8.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.d77190df.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.d77190df.js.map",
-    "static/js/2.b8d8d67d.chunk.js": "/my-app/static/js/2.b8d8d67d.chunk.js",
-    "static/js/2.b8d8d67d.chunk.js.map": "/my-app/static/js/2.b8d8d67d.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.e7db6862.chunk.css.map": "/my-app/static/css/main.e7db6862.chunk.css.map",
-    "static/js/2.b8d8d67d.chunk.js.LICENSE.txt": "/my-app/static/js/2.b8d8d67d.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/my-app/static/media/—Pngtree—colorful-birthday-confetti-transparent-background_4327913.f24eff7d.png"
+    "main.css": "/KamilaOlszewska.github.io/static/css/main.e9f873de.chunk.css",
+    "main.js": "/KamilaOlszewska.github.io/static/js/main.224dcea8.chunk.js",
+    "main.js.map": "/KamilaOlszewska.github.io/static/js/main.224dcea8.chunk.js.map",
+    "runtime-main.js": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js",
+    "runtime-main.js.map": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js.map",
+    "static/js/2.b8d8d67d.chunk.js": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js",
+    "static/js/2.b8d8d67d.chunk.js.map": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js.map",
+    "index.html": "/KamilaOlszewska.github.io/index.html",
+    "static/css/main.e9f873de.chunk.css.map": "/KamilaOlszewska.github.io/static/css/main.e9f873de.chunk.css.map",
+    "static/js/2.b8d8d67d.chunk.js.LICENSE.txt": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/KamilaOlszewska.github.io/static/media/—Pngtree—colorful-birthday-confetti-transparent-background_4327913.f24eff7d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d77190df.js",
+    "static/js/runtime-main.c8373446.js",
     "static/js/2.b8d8d67d.chunk.js",
-    "static/css/main.e7db6862.chunk.css",
+    "static/css/main.e9f873de.chunk.css",
     "static/js/main.224dcea8.chunk.js"
   ]
 }
