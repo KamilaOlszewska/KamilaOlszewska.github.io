@@ -1,4 +1,5 @@
 import React from 'react';
+import obrazek from "./assets/obrazek.png";
 
 const AboutPage = () => {
     return (
@@ -15,7 +16,7 @@ const AboutPage = () => {
                         podzielisz się z innymi!</p>
                 </div>
                 <div className="column">
-                    <img src="assets/obrazek.png" alt="people with phone"/>
+                    <img src={obrazek} alt="people with phone"/>
                 </div>
             </div>
         </section>
