@@ -1,0 +1,26 @@
+.add-new-quiz-window{
+    background-color: var(--very-gray-color);
+    padding: 1rem;
+}
+.new-quiz-form{
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.new-quiz-form-header{
+    font-size: 2rem;
+    font-family: var(--headers-font-style);
+    border-bottom: 2px solid var(--dark-violet-color);
+    margin-bottom: 0.5rem;
+}
+.new-quiz-questions{
+    font-family: var(--primary-font-style);
+}
+.new-quiz-questions-add-header{
+    font-size: 1.2rem;
+}
+.new-quiz-question-question-list{
+    margin: 1rem;
+    font-size: 0.8rem;
+
+}
