@@ -7,6 +7,7 @@ import AddNewQuiz from "./add-new-quiz";
 import CreateNewQuiz from "./create-new-page-nauka";
 import Ranking from "./ranking";
 // import {BrowserRouter, Switch, Route} from "react-router-dom";
+import TryQuiz from "./try-quiz";
 
 function App() {
   return (<>
@@ -45,6 +46,9 @@ function App() {
             <Route path="/nauka/create-new-quiz"><CreateNewQuiz/></Route>
             <Route path="/home">
               <Home/>
+            </Route>
+            <Route path="/try-quiz">
+              <TryQuiz/>
             </Route>
             <Route path="/">
               <Home/>

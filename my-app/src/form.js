@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import ReactDOM from "react-dom";
+import {Link} from "react-router-dom";
 
 
 
@@ -90,7 +91,8 @@ const Form =()=>{
                             <div className="column has-text-centered">
                                 <p className="form-text primary-font-style">To już czas.<br/>
                                     To <b className="form-text logo-font-style">QuizTime</b> !</p>
-                                <a href="/" className="form-button form-button-start">Start</a>
+                                <Link to="/try-quiz"><a href="/" className="form-button form-button-start">Start</a></Link>
+                                <p className="form-example-quiz">Zobacz przykładowy quiz</p>
                             </div>
                         </div>
                     </div>

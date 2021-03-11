@@ -26,6 +26,9 @@
 .main-view-btn-title{
     font-size: 0.8rem;
 }
+.main-view-widgets{
+    overflow: scroll;
+}
 .main-view-box-header{
     font-size: 2rem;
     background-color: var(--background-color);
@@ -46,9 +49,11 @@
 }
 .example-quiz-card-whole-card{
     margin-bottom: 1rem;
+    overflow: scroll;
 }
 .example-quiz-card{
     margin: 1rem;
+
 }
 .example-quiz-card-photo{
     width: 200px;

@@ -6,7 +6,7 @@ const ExampleQuizZabawa = () => {
     const NewQuizItems= NewQuizZabawa.map((el)=>{
         return(
             <div className="example-quiz-card-whole-card is-flex">
-                <img src="assets/img.png" className="example-quiz-card-photo"/>
+                <img src={el.quizPhoto} className="example-quiz-card-photo"/>
                 <div className="example-quiz-card-description ">
                     <h2 className="example-quiz-header">{el.quizName}</h2>
                     <p className="example-quiz-paragraph">{el.quizInfo}</p>

@@ -5,8 +5,8 @@ import "./css/index.css"
 const ExampleQuizNauka = () => {
     const NewQuizItems= NewQuizNauka.map((el)=>{
         return(
-            <div className="example-quiz-card-whole-card is-flex">
-                <img src="https://cdn.pixabay.com/photo/2021/02/07/09/11/sunset-5990540_960_720.jpg" className="example-quiz-card-photo"/>
+            <div className="example-quiz-card-whole-card is-flex box">
+                <img src={el.quizPhoto} className="example-quiz-card-photo"/>
                 <div className="example-quiz-card-description ">
                     <h2 className="example-quiz-header">{el.quizName}</h2>
                     <p className="example-quiz-paragraph">{el.quizInfo}</p>

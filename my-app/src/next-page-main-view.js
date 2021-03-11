@@ -10,9 +10,9 @@ const NextPageMainView = () => {
 
             <section className="main-view">
                 <div id="next-page"></div>
-                <div className="columns">
+                <div className="columns container">
                     <SideMenuNauka/>
-                    <div className="column main-view-box is-flex is-flex-direction-column">
+                    <div className="column main-view-box is-flex is-flex-direction-column main-view-widgets">
                         <AddNewQuiz/>
                         <div className="example-quiz-section-box is-flex-wrap-wrap">
                         <ExampleQuizNauka/>
