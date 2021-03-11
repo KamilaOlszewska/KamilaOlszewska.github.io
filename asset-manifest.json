@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KamilaOlszewska.github.io/static/css/main.78d37375.chunk.css",
-    "main.js": "/KamilaOlszewska.github.io/static/js/main.90a64fc9.chunk.js",
-    "main.js.map": "/KamilaOlszewska.github.io/static/js/main.90a64fc9.chunk.js.map",
+    "main.js": "/KamilaOlszewska.github.io/static/js/main.ea51dc41.chunk.js",
+    "main.js.map": "/KamilaOlszewska.github.io/static/js/main.ea51dc41.chunk.js.map",
     "runtime-main.js": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js",
     "runtime-main.js.map": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js.map",
     "static/js/2.6132d5c5.chunk.js": "/KamilaOlszewska.github.io/static/js/2.6132d5c5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c8373446.js",
     "static/js/2.6132d5c5.chunk.js",
     "static/css/main.78d37375.chunk.css",
-    "static/js/main.90a64fc9.chunk.js"
+    "static/js/main.ea51dc41.chunk.js"
   ]
 }
