@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/KamilaOlszewska.github.io/static/css/main.e9f873de.chunk.css",
-    "main.js": "/KamilaOlszewska.github.io/static/js/main.708e4b93.chunk.js",
-    "main.js.map": "/KamilaOlszewska.github.io/static/js/main.708e4b93.chunk.js.map",
+    "main.css": "/KamilaOlszewska.github.io/static/css/main.78d37375.chunk.css",
+    "main.js": "/KamilaOlszewska.github.io/static/js/main.90a64fc9.chunk.js",
+    "main.js.map": "/KamilaOlszewska.github.io/static/js/main.90a64fc9.chunk.js.map",
     "runtime-main.js": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js",
     "runtime-main.js.map": "/KamilaOlszewska.github.io/static/js/runtime-main.c8373446.js.map",
-    "static/js/2.b8d8d67d.chunk.js": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js",
-    "static/js/2.b8d8d67d.chunk.js.map": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js.map",
+    "static/js/2.6132d5c5.chunk.js": "/KamilaOlszewska.github.io/static/js/2.6132d5c5.chunk.js",
+    "static/js/2.6132d5c5.chunk.js.map": "/KamilaOlszewska.github.io/static/js/2.6132d5c5.chunk.js.map",
     "index.html": "/KamilaOlszewska.github.io/index.html",
-    "static/css/main.e9f873de.chunk.css.map": "/KamilaOlszewska.github.io/static/css/main.e9f873de.chunk.css.map",
-    "static/js/2.b8d8d67d.chunk.js.LICENSE.txt": "/KamilaOlszewska.github.io/static/js/2.b8d8d67d.chunk.js.LICENSE.txt",
+    "static/css/main.78d37375.chunk.css.map": "/KamilaOlszewska.github.io/static/css/main.78d37375.chunk.css.map",
+    "static/js/2.6132d5c5.chunk.js.LICENSE.txt": "/KamilaOlszewska.github.io/static/js/2.6132d5c5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/KamilaOlszewska.github.io/static/media/—Pngtree—colorful-birthday-confetti-transparent-background_4327913.f24eff7d.png",
     "static/media/obrazek.466502bd.png": "/KamilaOlszewska.github.io/static/media/obrazek.466502bd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c8373446.js",
-    "static/js/2.b8d8d67d.chunk.js",
-    "static/css/main.e9f873de.chunk.css",
-    "static/js/main.708e4b93.chunk.js"
+    "static/js/2.6132d5c5.chunk.js",
+    "static/css/main.78d37375.chunk.css",
+    "static/js/main.90a64fc9.chunk.js"
   ]
 }
